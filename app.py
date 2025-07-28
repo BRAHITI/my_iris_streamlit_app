@@ -10,8 +10,8 @@ st.title("🌸 Aperçu du Dataset Iris")
 df = sns.load_dataset("iris")
 
 # Afficher le dataset
-st.write("Voici les 5 premières lignes du dataset Iris :")
-st.dataframe(df.head())
+st.write("Voici les 10 premières lignes du dataset Iris :")
+st.dataframe(df.head(10))
 
 # Afficher des stats
 st.write("Statistiques descriptives :")
